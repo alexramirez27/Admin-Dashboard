@@ -8,7 +8,39 @@
 </head>
 <body>
     <div class="container">
-        <div class="header"><h1>Sample Text</h1></div>
+        <div class="header">
+            <div class="upper">
+                <div class="left">
+                    <img src="./svgs/header/magnify.svg" alt="Search">
+                    <input id="search" name="search" type="search" />
+                </div>
+                <div class="right">
+                    <div>
+                        <img src="./svgs/header/bell-ring-outline.svg" alt="Bell">
+                    </div>
+                    <div>
+                        <img src="./imgs/cat-yarn.png" alt="Cat Yarn">
+                    </div>
+                    <div>
+                        Morgan Oakley
+                    </div>
+                </div>
+            </div>
+            <div class="lower">
+                <div class="lower-left">
+                    <img src="./imgs/cat-yarn.png" alt="Cat Yarn" class="cat-yarn-pfp">
+                    <div class="user-name-area">
+                        <div>Hi there,</div>
+                        <div>Morgan Oakley (@morgan)</div>
+                    </div>
+                </div>
+                <div class="lower-right">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+        </div>
         <div class="sidebar">
             <div class="sidebar-dashboard-text">
                 <div class="dashboard-text">
@@ -16,34 +48,32 @@
                     Dashboard
                 </div>
             </div>
-
             <div class="sidebar-first">
                 <div class="dashboard-tab">
-                    <img src="./svgs/sidebar/home.svg" alt="Home" class="dashboard-icon">
-                    Home
+                        <img src="./svgs/sidebar/home.svg" alt="Home" class="dashboard-icon">
+                        Home
                 </div>
                 <div class="dashboard-tab">
-                    <img src="./svgs/sidebar/card-account-details-outline.svg" alt="Profile" class="dashboard-icon">
-                    Profile
+                        <img src="./svgs/sidebar/card-account-details-outline.svg" alt="Profile" class="dashboard-icon">
+                        Profile
                 </div>
                 <div class="dashboard-tab">
-                    <img src="./svgs/sidebar/message-reply.svg" alt="Messages" class="dashboard-icon">
-                    Messages
+                        <img src="./svgs/sidebar/message-reply.svg" alt="Messages" class="dashboard-icon">
+                        Messages
                 </div>
                 <div class="dashboard-tab">
-                    <img src="./svgs/sidebar/clock-time-three.svg" alt="History" class="dashboard-icon">
-                    History
+                        <img src="./svgs/sidebar/clock-time-three.svg" alt="History" class="dashboard-icon">
+                        History
                 </div>
                 <div class="dashboard-tab">
-                    <img src="./svgs/sidebar/note-multiple.svg" alt="Tasks" class="dashboard-icon">
-                    Tasks
+                        <img src="./svgs/sidebar/note-multiple.svg" alt="Tasks" class="dashboard-icon">
+                        Tasks
                 </div>
                 <div class="dashboard-tab">
-                    <img src="./svgs/sidebar/account-group.svg" alt="Communities" class="dashboard-icon">
-                    Communities
+                        <img src="./svgs/sidebar/account-group.svg" alt="Communities" class="dashboard-icon">
+                        Communities
                 </div>
             </div>
-
             <div class="sidebar-second">
                 <div class="dashboard-tab">
                     <img src="./svgs/sidebar/cog.svg" alt="Settings" class="dashboard-icon">
@@ -59,7 +89,158 @@
                 </div>
             </div>
         </div>
-        <div class="article"></div>
+        <div class="article">
+            <div class="left-section">
+                <h2>Your Projects</h2>
+                <div class="left-container">
+                    <div class="box">
+                        <h3>Super Cool Project</h3>
+                        <p>
+                            Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan 
+                            nec.
+                        </p>
+                        <div>
+                            <div>
+                                <img src="./svgs/article/star-plus-outline.svg" alt="Star" class="article-icon">
+                                <img src="./svgs/article/eye-plus-outline.svg" alt="Eye" class="article-icon">
+                                <img src="./svgs/article/share-variant-outline.svg" alt="Share" class="article-icon share">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h3>Less Cool project</h3>
+                        <p>
+                            Nullam condimentum ipsum ut lectus vehicular consectetur. Quisque sed dolor tincidunt, consectetur 
+                            sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.
+                        </p>
+                        <div>
+                            <div>
+                                <img src="./svgs/article/star-plus-outline.svg" alt="Star" class="article-icon">
+                                <img src="./svgs/article/eye-plus-outline.svg" alt="Eye" class="article-icon">
+                                <img src="./svgs/article/share-variant-outline.svg" alt="Share" class="article-icon share">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h3>Impossible App</h3>
+                        <p>
+                            In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.
+                        </p>
+                        <div>
+                            <div>
+                                <img src="./svgs/article/star-plus-outline.svg" alt="Star" class="article-icon">
+                                <img src="./svgs/article/eye-plus-outline.svg" alt="Eye" class="article-icon">
+                                <img src="./svgs/article/share-variant-outline.svg" alt="Share" class="article-icon share">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h3>Easy Peasy App</h3>
+                        <p>
+                            Etiam cursus eros ac efficitur Fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur 
+                            dignissim nisi in tortor commodo, ac Bibendum magna tincidunt.
+                        </p>
+                        <div>
+                            <div>
+                                <img src="./svgs/article/star-plus-outline.svg" alt="Star" class="article-icon">
+                                <img src="./svgs/article/eye-plus-outline.svg" alt="Eye" class="article-icon">
+                                <img src="./svgs/article/share-variant-outline.svg" alt="Share" class="article-icon share">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h3>Ad Blocker</h3>
+                        <p>
+                            Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. 
+                            Aliquam sed malesuada eros.
+                        </p>
+                        <div>
+                            <div>
+                                <img src="./svgs/article/star-plus-outline.svg" alt="Star" class="article-icon">
+                                <img src="./svgs/article/eye-plus-outline.svg" alt="Eye" class="article-icon">
+                                <img src="./svgs/article/share-variant-outline.svg" alt="Share" class="article-icon share">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h3>Money Maker</h3>
+                        <p>
+                            Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerique tortor 
+                            purus sit amet ex. Pellentesque mollis nec sem vel aliquam.
+                        </p>
+                        <div>
+                            <div>
+                                <img src="./svgs/article/star-plus-outline.svg" alt="Star" class="article-icon">
+                                <img src="./svgs/article/eye-plus-outline.svg" alt="Eye" class="article-icon">
+                                <img src="./svgs/article/share-variant-outline.svg" alt="Share" class="article-icon share">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="top">
+                    <h2>Announcements</h2>
+                    <div class="right-upper-container">
+                        <div>
+                            <h3>Site Maintenance</h3>
+                            <p>
+                                Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales 
+                                congue...
+                            </p>
+                        </div>
+                        <hr>
+                        <div>
+                            <h3>Community Share Day</h3>
+                            <p>
+                                Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...
+                            </p>
+                        </div>
+                        <hr>
+                        <div>
+                            <h3>Updated Privacy Policy</h3>
+                            <p>
+                                Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras Fringilla 
+                                sagittis sem in mattis...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <h2>Trending</h2>
+                    <div class="right-lower-container">
+                        <div>
+                            <img src="./imgs/red-cheetah.png" alt="Red cheetah" class="lower-right-article-icons">
+                            <div>
+                                <h4>@tegan</h4>
+                                <p>World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./imgs/cat-yarn.png" alt="Cat Yarn" class="lower-right-article-icons">
+                            <div>
+                                <h4>@morgan</h4>
+                                <p>Super Cool Project</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./imgs/orange-spiderman.png" alt="Orange Spiderman" class="lower-right-article-icons">
+                            <div>
+                                <h4>@kendall</h4>
+                                <p>Life Changing App</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./imgs/penguin.png" alt="Penguin" class="lower-right-article-icons">
+                            <div>
+                                <h4>@alex</h4>
+                                <p>No Traffic Maker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
